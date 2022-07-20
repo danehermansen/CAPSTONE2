@@ -1,0 +1,143 @@
+.container {
+    margin: auto;
+    background-color: black;
+    width: 200px;
+    height: 200px;
+    box-shadow: 0 0 8px 5px rgb(255 255 255 / 26%);
+    opacity: 85%;
+    border-radius: 10px;
+    padding: 20px;
+    scroll-behavior: auto;
+    overflow: auto;
+}
+.links {
+    text-align: center;
+    border: 3px solid black
+}
+header {
+    letter-spacing: 5px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: whitesmoke;
+    font-size: 50px;
+    background-color: black;
+    font-family: Andale Mono, monospace;
+    border-radius: 3px;
+    padding: 15px;
+}
+body {
+    background-color: black;
+}
+.button {
+    font: bold 11px Arial;
+    text-decoration: none;
+    background-color: #EEEEEE;
+    color: #333333;
+    padding: 8px 24px 8px 24px;
+    border-top: 1px solid #CCCCCC;
+    border-right: 1px solid #333333;
+    border-bottom: 1px solid #333333;
+    border-left: 1px solid #CCCCCC;
+    box-shadow: 0 0 8px 5px rgb(255 255 255 / 26%);
+    border-radius: 3px;
+
+  }
+
+form {
+    display: block;
+    margin: auto;
+    background-color: black;
+    width: 200px;
+    height: 200px;
+    box-shadow: 0 0 8px 5px rgb(255 255 255 / 26%);
+    opacity: 85%;
+    border-radius: 10px;
+    scroll-behavior: auto;
+    overflow: auto;
+    font: bold 11px Arial;
+    text-decoration: none;
+    background-color: #EEEEEE;
+    color: black;
+    padding: 8px 24px 8px 24px;
+    border-top: 1px solid #CCCCCC;
+    border-right: 1px solid #333333;
+    border-bottom: 1px solid #333333;
+    border-left: 1px solid #CCCCCC;
+    box-shadow: 0 0 8px 5px rgb(255 255 255 / 26%);
+    border-radius: 3px;
+}
+.div.form {
+    margin: auto;
+    background-color: black;
+    width: 200px;
+    height: 200px;
+    box-shadow: 0 0 8px 5px rgb(255 255 255 / 26%);
+    opacity: 85%;
+    border-radius: 10px;
+    padding: 20px;
+    scroll-behavior: auto;
+    overflow: auto;
+
+}
+.profile.h1 {
+    text-align: center;
+    color: white;
+    font: bold 35px Arial;
+
+}
+.profile.div {
+    font: bold 15px Arial;
+    color: white;
+    box-shadow: 0 0 8px 5px rgb(255 255 255 / 26%);
+    padding: 20px;
+    position: absolute;
+    top: 100px;
+    
+}
+.albums {
+    margin: auto;
+    background-color: black;
+    width: 50%;
+    height: 50%;
+    box-shadow: 0 0 8px 5px rgb(255 255 255 / 26%);
+    opacity: 85%;
+    border-radius: 10px;
+    padding: 20px;
+    scroll-behavior: auto;
+    overflow: auto;
+    position: absolute;
+    left: 40px; bottom: 200px;
+    justify-content: left;
+    color: white;
+    
+}
+.profile {
+    margin: auto;
+    background-color: black;
+    width: 400px;
+    height: 50%;
+    box-shadow: 0 0 8px 5px rgb(255 255 255 / 26%);
+    opacity: 85%;
+    border-radius: 10px;
+    padding-left: 5px;
+    scroll-behavior: auto;
+    overflow: auto;
+    color: white;
+    text-align: center;
+    right: 40px; top: 100px;
+    position: absolute;
+}
+.signup.h1 {
+    color: white;
+    position: absolute;
+    text-align: center;
+    top: auto;
+}
+.login.h1 {
+    color: white;
+    position: absolute;
+    text-align: center;
+    top: auto;
+}
