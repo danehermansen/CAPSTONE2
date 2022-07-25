@@ -12,8 +12,7 @@ from wtforms.validators import InputRequired, Length
 
 def get_album(search_str):
     
-    client_id = '99725a253fa84f2d9a02b3636cf56350'
-    client_secret = 'c774c60838fa42a5b8bcbf4be7b5d420'
+    
 
     os.environ['SPOTIPY_CLIENT_ID'] = client_id
     os.environ['SPOTIPY_CLIENT_SECRET'] = client_secret
