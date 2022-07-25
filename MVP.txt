@@ -7,8 +7,9 @@ MVP features:
 1 - User will be able to find an album and post on this website.
 2 - will connect to the spotify API to get data to show onscreen.
 3 - User can post their own comments about said album
-4 - Users can like/dislike other peoples ratings
-5 - User will be able to see how many hours they have listened to music
+
 
 Future features:
 1 - Users will be able to add friends and see what they are listening to
+2 - User will be able to like/dislike other users ratings
+3 - User will be able to see how long they have been listening to music

@@ -4,6 +4,7 @@ from flask import Flask
 from flask_sqlalchemy import SQLAlchemy
 import jinja2
 from flask_login import LoginManager, UserMixin
+from flask_migrate import Migrate
 
 
 app = Flask(__name__)
@@ -13,6 +14,7 @@ login_manager.login_view = 'login_person'
 app.config['SQLALCHEMY_DATABASE_URI'] = 'postgresql://danehermansen:goldsox2@localhost:5432/albumify'
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 db = SQLAlchemy(app)
+Migrate(app, db)
 app.secret_key = "supersecret"
 app.jinja_env.undefined = jinja2.StrictUndefined
 db.init_app(app)

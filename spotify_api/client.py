@@ -1,9 +1,11 @@
+# from typing_extensions import Self
 import requests 
 import datetime 
 import base64
 from urllib.parse import urlencode 
 
-
+client_id = '99725a253fa84f2d9a02b3636cf56350'
+client_secret = 'c774c60838fa42a5b8bcbf4be7b5d420'
 
 class SpotifyAPI(object):
     access_token = None
@@ -74,7 +76,6 @@ class SpotifyAPI(object):
         "Authorization" : f"Bearer {access_token}"
         }
         endpoint = "https://api.spotify.com/v1/search"
-        query = 'Faces'
         data = urlencode({"q": query , "type": search_type.lower()})
        
 
@@ -84,3 +85,14 @@ class SpotifyAPI(object):
         if r.status_code not in range(200, 299):
             return {}
         return r.json()
+
+
+
+
+spotify = SpotifyAPI(client_id, client_secret)
+
+search_results = spotify.search('Faces', search_type='albums')
+
+print(search_results)
+
+

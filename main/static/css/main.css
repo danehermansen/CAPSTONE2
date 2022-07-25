@@ -45,7 +45,7 @@ body {
 
   }
 
-form {
+.login-form {
     display: block;
     margin: auto;
     background-color: black;
@@ -68,6 +68,32 @@ form {
     box-shadow: 0 0 8px 5px rgb(255 255 255 / 26%);
     border-radius: 3px;
 }
+
+.signup-form {
+    display: block;
+    margin: auto;
+    background-color: black;
+    width: 200px;
+    height: 200px;
+    box-shadow: 0 0 8px 5px rgb(255 255 255 / 26%);
+    opacity: 85%;
+    border-radius: 10px;
+    scroll-behavior: auto;
+    overflow: auto;
+    font: bold 11px Arial;
+    text-decoration: none;
+    background-color: #EEEEEE;
+    color: black;
+    padding: 8px 24px 8px 24px;
+    border-top: 1px solid #CCCCCC;
+    border-right: 1px solid #333333;
+    border-bottom: 1px solid #333333;
+    border-left: 1px solid #CCCCCC;
+    box-shadow: 0 0 8px 5px rgb(255 255 255 / 26%);
+    border-radius: 3px;
+    position: absolute;
+    right: 590px; top: 75px;
+}
 .div.form {
     margin: auto;
     background-color: black;
@@ -81,10 +107,11 @@ form {
     overflow: auto;
 
 }
-.profile.h1 {
+.profile_h1 {
     text-align: center;
     color: white;
-    font: bold 35px Arial;
+    font-family: Andale Mono, monospace;
+    
 
 }
 .profile.div {
@@ -94,25 +121,10 @@ form {
     padding: 20px;
     position: absolute;
     top: 100px;
+    overflow-y: scroll;
     
 }
-.albums {
-    margin: auto;
-    background-color: black;
-    width: 50%;
-    height: 50%;
-    box-shadow: 0 0 8px 5px rgb(255 255 255 / 26%);
-    opacity: 85%;
-    border-radius: 10px;
-    padding: 20px;
-    scroll-behavior: auto;
-    overflow: auto;
-    position: absolute;
-    left: 40px; bottom: 200px;
-    justify-content: left;
-    color: white;
-    
-}
+
 .profile {
     margin: auto;
     background-color: black;
@@ -129,15 +141,83 @@ form {
     right: 40px; top: 100px;
     position: absolute;
 }
-.signup.h1 {
+.signup_h1 {
     color: white;
-    position: absolute;
+    
     text-align: center;
-    top: auto;
+    
+    font-family: Andale Mono, monospace;
+
 }
-.login.h1 {
+.login_h1 {
     color: white;
-    position: absolute;
+    
     text-align: center;
-    top: auto;
+    font-family: Andale Mono, monospace;
+    
+}
+.comments {
+    position: absolute;
+    left: 200px;
+    font-family: Andale Mono, monospace;
+
+}
+.album_form {
+    left: 200px;
+}
+.albums_div {
+    overflow-y: scroll;
+    margin: auto;
+    background-color: black;
+    width: 40%;
+    height: 40%;
+    font-family: Andale Mono, monospace;
+    opacity: 85%;
+    border-radius: 10px;
+    padding: 20px;
+    scroll-behavior: auto;
+    overflow: auto;
+    position: absolute;
+    left: 270px; bottom: 200px;
+    justify-content: left;
+    color: white;
+}
+.album_div2 {
+
+    display: block;
+    text-align: center;
+}
+.album_form {
+    color: white;
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    bottom: 100px;
+}
+.comment_form {
+    background-color: black;
+    color: white;
+    left: 50px;
+    font-family: Andale Mono, monospace;
+
+}
+.comment_div {
+    overflow-y: scroll;
+    margin: auto;
+    background-color: black;
+    width: 40%;
+    height: 40%;
+    box-shadow: 0 0 8px 5px rgb(255 255 255 / 26%);
+    opacity: 85%;
+    border-radius: 10px;
+    padding: 20px;
+    scroll-behavior: auto;
+    overflow: auto;
+    position: absolute;
+    left: 500px; bottom: 200px;
+    justify-content: right;
+    color: white;
+    font-family: Andale Mono, monospace;
+
 }

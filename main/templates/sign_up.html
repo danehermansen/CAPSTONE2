@@ -2,9 +2,9 @@
 {% block content %}
 <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
 
-<h1 class="signup.h1">Sign up</h1>
-<body>
-  <form method="POST" action="">
+<h1 class="signup_h1">Sign up</h1>
+<body class="">
+  <form method="POST" action="" class="signup-form">
     {{ form.hidden_tag() }}
     {{ form.username }}
     {{ form.password }}
